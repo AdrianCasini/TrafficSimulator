@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\lang">
+      <UniqueIdentifier>{0e6f29e9-a7c7-492e-880b-4b5753b86ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\lang">
+      <UniqueIdentifier>{c1c18be4-5a22-4836-a183-4e42fc3b1cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\lang\throwable">
+      <UniqueIdentifier>{e03c2634-46bd-424c-a9ea-f0b2cb85dcba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\lang\throwable">
+      <UniqueIdentifier>{22ee3132-c9e1-4f9e-9bdb-72354aa76f8a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseDatos.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\Cadena.h">
+      <Filter>Archivos de encabezado\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\CadenaList.h">
+      <Filter>Archivos de encabezado\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\Types.h">
+      <Filter>Archivos de encabezado\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\throwable\ComunicacionExcepcion.h">
+      <Filter>Archivos de encabezado\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\throwable\CorrompidoExcepcion.h">
+      <Filter>Archivos de encabezado\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\throwable\DesconocidoExcepcion.h">
+      <Filter>Archivos de encabezado\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\throwable\Excepcion.h">
+      <Filter>Archivos de encabezado\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\throwable\FormatoExcepcion.h">
+      <Filter>Archivos de encabezado\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\throwable\InterrupcionExcepcion.h">
+      <Filter>Archivos de encabezado\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\throwable\IOExcepcion.h">
+      <Filter>Archivos de encabezado\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\throwable\LlenoExcepcion.h">
+      <Filter>Archivos de encabezado\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\throwable\MemoriaExcepcion.h">
+      <Filter>Archivos de encabezado\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\throwable\MonitorExcepcion.h">
+      <Filter>Archivos de encabezado\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\throwable\NoAplicaExcepcion.h">
+      <Filter>Archivos de encabezado\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\throwable\NoExisteExcepcion.h">
+      <Filter>Archivos de encabezado\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\throwable\OcupadoExcepcion.h">
+      <Filter>Archivos de encabezado\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\throwable\ParametroExcepcion.h">
+      <Filter>Archivos de encabezado\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\throwable\PermisoExcepcion.h">
+      <Filter>Archivos de encabezado\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\throwable\RangoExcepcion.h">
+      <Filter>Archivos de encabezado\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\throwable\SinRecursosExcepcion.h">
+      <Filter>Archivos de encabezado\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="lang\throwable\TimeoutExcepcion.h">
+      <Filter>Archivos de encabezado\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ACSimulator\source\FileInfo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Texter.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMngr.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMapFill.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="DBTrafficFill.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseDatos.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\Cadena.cpp">
+      <Filter>Archivos de origen\lang</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\CadenaList.cpp">
+      <Filter>Archivos de origen\lang</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\throwable\FormatoExcepcion.cpp">
+      <Filter>Archivos de origen\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\throwable\InterrupcionExcepcion.cpp">
+      <Filter>Archivos de origen\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\throwable\IOExcepcion.cpp">
+      <Filter>Archivos de origen\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\throwable\LlenoExcepcion.cpp">
+      <Filter>Archivos de origen\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\throwable\MemoriaExcepcion.cpp">
+      <Filter>Archivos de origen\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\throwable\MonitorExcepcion.cpp">
+      <Filter>Archivos de origen\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\throwable\NoAplicaExcepcion.cpp">
+      <Filter>Archivos de origen\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\throwable\NoExisteExcepcion.cpp">
+      <Filter>Archivos de origen\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\throwable\OcupadoExcepcion.cpp">
+      <Filter>Archivos de origen\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\throwable\ParametroExcepcion.cpp">
+      <Filter>Archivos de origen\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\throwable\PermisoExcepcion.cpp">
+      <Filter>Archivos de origen\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\throwable\RangoExcepcion.cpp">
+      <Filter>Archivos de origen\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\throwable\SinRecursosExcepcion.cpp">
+      <Filter>Archivos de origen\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\throwable\TimeoutExcepcion.cpp">
+      <Filter>Archivos de origen\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\throwable\ComunicacionExcepcion.cpp">
+      <Filter>Archivos de origen\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\throwable\CorrompidoExcepcion.cpp">
+      <Filter>Archivos de origen\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\throwable\DesconocidoExcepcion.cpp">
+      <Filter>Archivos de origen\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\throwable\Excepcion.cpp">
+      <Filter>Archivos de origen\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ACSimulator\source\FileInfo.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ACSimulator\source\Simulator.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ACSimulator\source\lodepng.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ACSimulator\source\texture.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Texter.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMngr.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMapFill.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="DBTrafficFill.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

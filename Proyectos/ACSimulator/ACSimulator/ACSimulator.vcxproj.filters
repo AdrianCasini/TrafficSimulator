@@ -1,0 +1,1265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\source">
+      <UniqueIdentifier>{80de6d74-417c-4182-b835-e148fc1d1188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\source">
+      <UniqueIdentifier>{735ba958-78c5-4b94-a36b-68997a487e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\shaders">
+      <UniqueIdentifier>{354f410f-e1ef-48f3-bed3-717de31a2bec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\source\lang">
+      <UniqueIdentifier>{935b873b-a7e5-4bba-baec-43c3e3f8d1fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\source\lang">
+      <UniqueIdentifier>{5212b529-ecda-4b8b-98a0-6cf2446f61ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\source\lang\throwable">
+      <UniqueIdentifier>{ec50a679-4943-4b15-a86e-2643d4be11c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\source\lang\throwable">
+      <UniqueIdentifier>{9fe3fb7b-7e1b-447e-ada0-a0b9a19f2210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\images">
+      <UniqueIdentifier>{9449237e-2c81-42c1-9566-ae08d208f58d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\images\menu_left">
+      <UniqueIdentifier>{29359620-7934-4884-8199-59e3735e3772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\images\menu_right">
+      <UniqueIdentifier>{96f5c803-abf0-4a03-9eac-76af2f4b9842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\images\menu_top">
+      <UniqueIdentifier>{661619a3-6bfe-4780-9725-1c3d863140c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\test">
+      <UniqueIdentifier>{b2e113b0-442a-4670-9d44-431cce61b7f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\test\routes">
+      <UniqueIdentifier>{07e9e0ea-bbd0-4634-a0d6-ee075381753c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\test\algorithms">
+      <UniqueIdentifier>{20c1c992-0665-47b3-975b-f8fba0db5bf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\dbase">
+      <UniqueIdentifier>{3c5164a4-c35f-403b-843b-5761702389a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\etc">
+      <UniqueIdentifier>{6ece83cc-095e-4e97-8a1c-18f467f3cc3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\etc\scripts">
+      <UniqueIdentifier>{faec02f7-a062-46c3-81f7-269ac713a512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\etc\config">
+      <UniqueIdentifier>{3dc38c61-f355-4d6d-be6b-8902ffac6fc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\test\in-out">
+      <UniqueIdentifier>{dcf55748-36c3-46af-ac60-be6b9aabb6c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\test\detectors">
+      <UniqueIdentifier>{385d9682-6812-4e59-afef-57ebf29f72e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\test\trips">
+      <UniqueIdentifier>{b7f2adbd-23aa-4e0e-aac3-d8b56d8295be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\test\labels">
+      <UniqueIdentifier>{c6b5756c-458e-4376-8faa-e593547feb3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\test\sources">
+      <UniqueIdentifier>{608b49ab-506c-43d9-97b7-e691f0c9868d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\objects">
+      <UniqueIdentifier>{bd65f142-92f0-4e8d-8248-0f20d4a4dfd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\test\sections">
+      <UniqueIdentifier>{c4091f9e-d1e5-4c41-946e-8f55a0e8ee0d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\BaseDatos.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Camera.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Controls.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lodepng.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Menu.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Shader.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\texture.hpp">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Vehiculo.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\Cadena.h">
+      <Filter>Archivos de encabezado\source\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\CadenaList.h">
+      <Filter>Archivos de encabezado\source\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\Types.h">
+      <Filter>Archivos de encabezado\source\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\throwable\ComunicacionExcepcion.h">
+      <Filter>Archivos de encabezado\source\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\throwable\CorrompidoExcepcion.h">
+      <Filter>Archivos de encabezado\source\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\throwable\DesconocidoExcepcion.h">
+      <Filter>Archivos de encabezado\source\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\throwable\Excepcion.h">
+      <Filter>Archivos de encabezado\source\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\throwable\FormatoExcepcion.h">
+      <Filter>Archivos de encabezado\source\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\throwable\InterrupcionExcepcion.h">
+      <Filter>Archivos de encabezado\source\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\throwable\IOExcepcion.h">
+      <Filter>Archivos de encabezado\source\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\throwable\LlenoExcepcion.h">
+      <Filter>Archivos de encabezado\source\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\throwable\MemoriaExcepcion.h">
+      <Filter>Archivos de encabezado\source\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\throwable\MonitorExcepcion.h">
+      <Filter>Archivos de encabezado\source\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\throwable\NoAplicaExcepcion.h">
+      <Filter>Archivos de encabezado\source\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\throwable\NoExisteExcepcion.h">
+      <Filter>Archivos de encabezado\source\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\throwable\OcupadoExcepcion.h">
+      <Filter>Archivos de encabezado\source\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\throwable\ParametroExcepcion.h">
+      <Filter>Archivos de encabezado\source\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\throwable\PermisoExcepcion.h">
+      <Filter>Archivos de encabezado\source\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\throwable\RangoExcepcion.h">
+      <Filter>Archivos de encabezado\source\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\throwable\SinRecursosExcepcion.h">
+      <Filter>Archivos de encabezado\source\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lang\throwable\TimeoutExcepcion.h">
+      <Filter>Archivos de encabezado\source\lang\throwable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Mapper.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Texter.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Simulator.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Toller.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Tarif.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MapMng.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Triangulate.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Tools.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\WCtrl.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MapperDB.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GPSPoint.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Routing.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Drawing.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Trip.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Source.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Proxy.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Test.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\WayRenderMng.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\WayRender.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ObjMng.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Mesh.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Labels.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MenuLeft.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MenuRight.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PofI.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\framework.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\pch.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\targetver.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\resource.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\QuadMap.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Trace.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\FileInfo.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Traffic.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Overlapper.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Logic.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\NodeOrder.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Model.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SectionMng.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MapBoundary.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Inrix.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Render.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SimCurl.h">
+      <Filter>Archivos de encabezado\source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Vehiculo.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\texture.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Menu.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lodepng.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Controls.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BaseDatos.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lang\Cadena.cpp">
+      <Filter>Archivos de origen\source\lang</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lang\CadenaList.cpp">
+      <Filter>Archivos de origen\source\lang</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lang\throwable\ComunicacionExcepcion.cpp">
+      <Filter>Archivos de origen\source\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lang\throwable\CorrompidoExcepcion.cpp">
+      <Filter>Archivos de origen\source\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lang\throwable\DesconocidoExcepcion.cpp">
+      <Filter>Archivos de origen\source\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lang\throwable\Excepcion.cpp">
+      <Filter>Archivos de origen\source\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lang\throwable\FormatoExcepcion.cpp">
+      <Filter>Archivos de origen\source\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lang\throwable\InterrupcionExcepcion.cpp">
+      <Filter>Archivos de origen\source\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lang\throwable\IOExcepcion.cpp">
+      <Filter>Archivos de origen\source\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lang\throwable\LlenoExcepcion.cpp">
+      <Filter>Archivos de origen\source\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lang\throwable\MemoriaExcepcion.cpp">
+      <Filter>Archivos de origen\source\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lang\throwable\MonitorExcepcion.cpp">
+      <Filter>Archivos de origen\source\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lang\throwable\NoAplicaExcepcion.cpp">
+      <Filter>Archivos de origen\source\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lang\throwable\NoExisteExcepcion.cpp">
+      <Filter>Archivos de origen\source\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lang\throwable\OcupadoExcepcion.cpp">
+      <Filter>Archivos de origen\source\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lang\throwable\ParametroExcepcion.cpp">
+      <Filter>Archivos de origen\source\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lang\throwable\PermisoExcepcion.cpp">
+      <Filter>Archivos de origen\source\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lang\throwable\RangoExcepcion.cpp">
+      <Filter>Archivos de origen\source\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lang\throwable\SinRecursosExcepcion.cpp">
+      <Filter>Archivos de origen\source\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lang\throwable\TimeoutExcepcion.cpp">
+      <Filter>Archivos de origen\source\lang\throwable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Mapper.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Shader.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Texter.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Toller.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Tarif.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Simulator.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MapMng.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Triangulate.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Tools.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WCtrl.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MapperDB.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GPSPoint.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Routing.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Drawing.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Trip.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Source.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Proxy.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Test.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WayRenderMng.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WayRender.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObjMng.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Mesh.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Labels.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MenuLeft.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MenuRight.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PofI.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pch.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\QuadMap.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Trace.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FileInfo.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Traffic.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Overlapper.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Logic.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\NodeOrder.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Model.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SectionMng.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MapBoundary.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Inrix.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Render.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SimCurl.cpp">
+      <Filter>Archivos de origen\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\highway.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\highway.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\highway_stuff.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\highway_stuff.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\menu.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\menu.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\text.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\text.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\highway_lanes.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\highway_lanes.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\spw.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\spw.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\toller_line.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\toller_line.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\toller_point.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\toller_point.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\mapper_line.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\mapper_line.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\mapper_surface.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\mapper_surface.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\tools.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\tools.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\tools_line.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\tools_line.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\tools_point.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\tools_point.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\text_plus.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\text_plus.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\drawing_line.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\drawing_line.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\drawing_point.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\drawing_point.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\object.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\object.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\menu_left.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\menu_left.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\menu_right.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\menu_right.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="images\grab.rgba">
+      <Filter>Archivos de recursos\images</Filter>
+    </None>
+    <None Include="dbase\crearbd_1.sql">
+      <Filter>Archivos de recursos\dbase</Filter>
+    </None>
+    <None Include="dbase\crearbd.sql">
+      <Filter>Archivos de recursos\dbase</Filter>
+    </None>
+    <None Include="dbase\crearbd_delta.sql">
+      <Filter>Archivos de recursos\dbase</Filter>
+    </None>
+    <None Include="dbase\crearbd_delta_2.sql">
+      <Filter>Archivos de recursos\dbase</Filter>
+    </None>
+    <None Include="dbase\crearbd_nodes.sql">
+      <Filter>Archivos de recursos\dbase</Filter>
+    </None>
+    <None Include="dbase\crearbd_relations.sql">
+      <Filter>Archivos de recursos\dbase</Filter>
+    </None>
+    <None Include="dbase\crearbd_ways.sql">
+      <Filter>Archivos de recursos\dbase</Filter>
+    </None>
+    <None Include="dbase\db_filler_tables.pl">
+      <Filter>Archivos de recursos\dbase</Filter>
+    </None>
+    <None Include="dbase\db_filler_wayrender.pl">
+      <Filter>Archivos de recursos\dbase</Filter>
+    </None>
+    <None Include="etc\scripts\clean_trips.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\get_results.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\get_trips.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\get_trips_per_veh.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\GPS_to_cvs.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\load_test_generator.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\load_test_generator_clean.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\loop_load_test.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\loop_load_test_clean.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\move_veh_identifier.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\newgetopt.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\perf_files_gen.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\perf_samefiles_gen.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\recorrido.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\scania_parser.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\sender.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\server_sock.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\simulation.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\snap2route.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\timeconverter.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\trip_converter.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\veh_converter.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\way_finder.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="test\in-out\in-out.xls">
+      <Filter>Archivos de recursos\test\in-out</Filter>
+    </None>
+    <None Include="etc\scripts\execute.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="etc\scripts\sender_simulator_files.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="shaders\trace_punto.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\trace_punto.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\traffic.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\traffic.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="dbase\crearbd_quads.sql">
+      <Filter>Archivos de recursos\dbase</Filter>
+    </None>
+    <None Include="dbase\db_filler_quads.pl">
+      <Filter>Archivos de recursos\dbase</Filter>
+    </None>
+    <None Include="shaders\section_mngr.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\section_mngr.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="etc\scripts\getnodesfromsnap.pl">
+      <Filter>Archivos de recursos\etc\scripts</Filter>
+    </None>
+    <None Include="dbase\crearbd_segments.sql">
+      <Filter>Archivos de recursos\dbase</Filter>
+    </None>
+    <None Include="shaders\render_line.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\render_line.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\render_point.frag">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="shaders\render_point.vs">
+      <Filter>Archivos de recursos\shaders</Filter>
+    </None>
+    <None Include="dbase\crear_tr_aucat.sql">
+      <Filter>Archivos de recursos\dbase</Filter>
+    </None>
+    <None Include="dbase\db_filler_transitosaucat.pl">
+      <Filter>Archivos de recursos\dbase</Filter>
+    </None>
+    <None Include="dbase\crearbd_traffic.sql">
+      <Filter>Archivos de recursos\dbase</Filter>
+    </None>
+    <None Include="dbase\crearbd_node_pos.sql">
+      <Filter>Archivos de recursos\dbase</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test\routes\all_AUCAT_south.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\AUCAT_N_CLFLL_CUNIT.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\AUCAT_N_SCLFELL_VLYLAGTRU.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\AUCAT_N_VDRLL_BCN.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\AUCAT_N_VLLFPE_SITGES.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\AUCAT_S_CTF_SITGES.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\AUCAT_S_SPRRIB_LARBOC.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\AUCAT_S_VLF_CUNIT.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\fin_aucat_s06.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\fin_aucat_s13.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s06_s13.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s06_s16.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s06_s21.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s06_s26.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s10_s13.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s10_s16.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s10_s21.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s10_s46.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s10_s50.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s21_s13.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s21_s26.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s30_s02.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s30_s03.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s30_s10.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s30_s31.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s30_s41.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s30_s44.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s44_s28.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s44_s31.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s50_s02.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s50_s42.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s53_s48.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\algorithms\AlgTest.txt">
+      <Filter>Archivos de recursos\test\algorithms</Filter>
+    </Text>
+    <Text Include="test\algorithms\AUCAT_1.txt">
+      <Filter>Archivos de recursos\test\algorithms</Filter>
+    </Text>
+    <Text Include="test\algorithms\AUCAT_2.txt">
+      <Filter>Archivos de recursos\test\algorithms</Filter>
+    </Text>
+    <Text Include="test\algorithms\AUCAT_MASTER_V01.txt">
+      <Filter>Archivos de recursos\test\algorithms</Filter>
+    </Text>
+    <Text Include="test\algorithms\SourceTrip_1.txt">
+      <Filter>Archivos de recursos\test\algorithms</Filter>
+    </Text>
+    <Text Include="test\algorithms\SourceTrip_2.txt">
+      <Filter>Archivos de recursos\test\algorithms</Filter>
+    </Text>
+    <Text Include="etc\config\map_processor.txt">
+      <Filter>Archivos de recursos\etc\config</Filter>
+    </Text>
+    <Text Include="etc\config\mapper.txt">
+      <Filter>Archivos de recursos\etc\config</Filter>
+    </Text>
+    <Text Include="etc\config\mapper_generator.txt">
+      <Filter>Archivos de recursos\etc\config</Filter>
+    </Text>
+    <Text Include="etc\config\texter.txt">
+      <Filter>Archivos de recursos\etc\config</Filter>
+    </Text>
+    <Text Include="etc\config\wayrender.txt">
+      <Filter>Archivos de recursos\etc\config</Filter>
+    </Text>
+    <Text Include="test\detectors\aucat.txt">
+      <Filter>Archivos de recursos\test\detectors</Filter>
+    </Text>
+    <Text Include="test\detectors\aucat_nodes_e_s.txt">
+      <Filter>Archivos de recursos\test\detectors</Filter>
+    </Text>
+    <Text Include="test\in-out\aucat_v1.0.txt">
+      <Filter>Archivos de recursos\test\in-out</Filter>
+    </Text>
+    <Text Include="test\labels\aucat.txt">
+      <Filter>Archivos de recursos\test\labels</Filter>
+    </Text>
+    <Text Include="test\trips\route_140322-162141.txt">
+      <Filter>Archivos de recursos\test\trips</Filter>
+    </Text>
+    <Text Include="test\routes\s26_s50.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s41_s02.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s41_s30.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s46_s03.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s46_s13.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\routes\s46_s53.txt">
+      <Filter>Archivos de recursos\test\routes</Filter>
+    </Text>
+    <Text Include="test\sources\aucat_1.txt">
+      <Filter>Archivos de recursos\test\sources</Filter>
+    </Text>
+    <Text Include="test\sources\aucat_2.txt">
+      <Filter>Archivos de recursos\test\sources</Filter>
+    </Text>
+    <Text Include="test\sources\aucat_3.txt">
+      <Filter>Archivos de recursos\test\sources</Filter>
+    </Text>
+    <Text Include="test\sources\aucat_s26_s50.txt">
+      <Filter>Archivos de recursos\test\sources</Filter>
+    </Text>
+    <Text Include="test\sources\aucat_s30_s03.txt">
+      <Filter>Archivos de recursos\test\sources</Filter>
+    </Text>
+    <Text Include="test\sources\aucat_s30_s10.txt">
+      <Filter>Archivos de recursos\test\sources</Filter>
+    </Text>
+    <Text Include="test\sources\aucat_s30_s31.txt">
+      <Filter>Archivos de recursos\test\sources</Filter>
+    </Text>
+    <Text Include="test\sources\aucat_s30_s41.txt">
+      <Filter>Archivos de recursos\test\sources</Filter>
+    </Text>
+    <Text Include="test\sources\aucat_s30_s44.txt">
+      <Filter>Archivos de recursos\test\sources</Filter>
+    </Text>
+    <Text Include="test\sources\aucat_s41_s02.txt">
+      <Filter>Archivos de recursos\test\sources</Filter>
+    </Text>
+    <Text Include="test\sources\aucat_s41_s30.txt">
+      <Filter>Archivos de recursos\test\sources</Filter>
+    </Text>
+    <Text Include="test\sources\aucat_s46_s03.txt">
+      <Filter>Archivos de recursos\test\sources</Filter>
+    </Text>
+    <Text Include="test\sources\aucat_s46_s13.txt">
+      <Filter>Archivos de recursos\test\sources</Filter>
+    </Text>
+    <Text Include="test\sources\aucat_s46_s53.txt">
+      <Filter>Archivos de recursos\test\sources</Filter>
+    </Text>
+    <Text Include="test\sources\aucat_slow_1.txt">
+      <Filter>Archivos de recursos\test\sources</Filter>
+    </Text>
+    <Text Include="test\sources\aucat_uslow_1.txt">
+      <Filter>Archivos de recursos\test\sources</Filter>
+    </Text>
+    <Text Include="test\sources\S1.txt">
+      <Filter>Archivos de recursos\test\sources</Filter>
+    </Text>
+    <Text Include="test\sources\S2.txt">
+      <Filter>Archivos de recursos\test\sources</Filter>
+    </Text>
+    <Text Include="etc\config\AP7_toll_distance.txt">
+      <Filter>Archivos de recursos\etc\config</Filter>
+    </Text>
+    <Text Include="test\sections\section_c32_fin_ini.txt">
+      <Filter>Archivos de recursos\test\sections</Filter>
+    </Text>
+    <Text Include="..\..\..\Test\sections\section_c32_ini_fin.txt">
+      <Filter>Archivos de recursos\test\sections</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ACSimulator.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\borde.png">
+      <Filter>Archivos de recursos\images</Filter>
+    </Image>
+    <Image Include="images\building.png">
+      <Filter>Archivos de recursos\images</Filter>
+    </Image>
+    <Image Include="images\button_base.png">
+      <Filter>Archivos de recursos\images</Filter>
+    </Image>
+    <Image Include="images\car_3_white.png">
+      <Filter>Archivos de recursos\images</Filter>
+    </Image>
+    <Image Include="images\forest.png">
+      <Filter>Archivos de recursos\images</Filter>
+    </Image>
+    <Image Include="images\forest2.jpg">
+      <Filter>Archivos de recursos\images</Filter>
+    </Image>
+    <Image Include="images\forest2.png">
+      <Filter>Archivos de recursos\images</Filter>
+    </Image>
+    <Image Include="images\grab.bmp">
+      <Filter>Archivos de recursos\images</Filter>
+    </Image>
+    <Image Include="images\grab.png">
+      <Filter>Archivos de recursos\images</Filter>
+    </Image>
+    <Image Include="images\motorcycle.png">
+      <Filter>Archivos de recursos\images</Filter>
+    </Image>
+    <Image Include="images\particle.dds">
+      <Filter>Archivos de recursos\images</Filter>
+    </Image>
+    <Image Include="images\pavement.png">
+      <Filter>Archivos de recursos\images</Filter>
+    </Image>
+    <Image Include="images\point.png">
+      <Filter>Archivos de recursos\images</Filter>
+    </Image>
+    <Image Include="images\point_circle.png">
+      <Filter>Archivos de recursos\images</Filter>
+    </Image>
+    <Image Include="images\points.png">
+      <Filter>Archivos de recursos\images</Filter>
+    </Image>
+    <Image Include="images\simulator.png">
+      <Filter>Archivos de recursos\images</Filter>
+    </Image>
+    <Image Include="images\sky.jpg">
+      <Filter>Archivos de recursos\images</Filter>
+    </Image>
+    <Image Include="images\truck.png">
+      <Filter>Archivos de recursos\images</Filter>
+    </Image>
+    <Image Include="images\water.jpg">
+      <Filter>Archivos de recursos\images</Filter>
+    </Image>
+    <Image Include="images\menu_left\color_picker.png">
+      <Filter>Archivos de recursos\images\menu_left</Filter>
+    </Image>
+    <Image Include="images\menu_left\color_picker_n.png">
+      <Filter>Archivos de recursos\images\menu_left</Filter>
+    </Image>
+    <Image Include="images\menu_left\color_picker_o.png">
+      <Filter>Archivos de recursos\images\menu_left</Filter>
+    </Image>
+    <Image Include="images\menu_left\create_trip.png">
+      <Filter>Archivos de recursos\images\menu_left</Filter>
+    </Image>
+    <Image Include="images\menu_left\create_trip_n.png">
+      <Filter>Archivos de recursos\images\menu_left</Filter>
+    </Image>
+    <Image Include="images\menu_left\create_trip_o.png">
+      <Filter>Archivos de recursos\images\menu_left</Filter>
+    </Image>
+    <Image Include="images\menu_left\detector.png">
+      <Filter>Archivos de recursos\images\menu_left</Filter>
+    </Image>
+    <Image Include="images\menu_left\detector_n.png">
+      <Filter>Archivos de recursos\images\menu_left</Filter>
+    </Image>
+    <Image Include="images\menu_left\detector_o.png">
+      <Filter>Archivos de recursos\images\menu_left</Filter>
+    </Image>
+    <Image Include="images\menu_left\menuleft_bar.png">
+      <Filter>Archivos de recursos\images\menu_left</Filter>
+    </Image>
+    <Image Include="images\menu_left\text.png">
+      <Filter>Archivos de recursos\images\menu_left</Filter>
+    </Image>
+    <Image Include="images\menu_left\text_n.png">
+      <Filter>Archivos de recursos\images\menu_left</Filter>
+    </Image>
+    <Image Include="images\menu_left\text_o.png">
+      <Filter>Archivos de recursos\images\menu_left</Filter>
+    </Image>
+    <Image Include="images\menu_right\ml_mv_down.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\ml_mv_down_o.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\ml_mv_left.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\ml_mv_left_o.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\ml_mv_move.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\ml_mv_move_o.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\ml_mv_right.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\ml_mv_right_o.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\ml_mv_up.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\ml_mv_up_o.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\ml_r_down.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\ml_r_down_o.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\ml_r_left.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\ml_r_left_o.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\ml_r_right.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\ml_r_right_o.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\ml_r_rotate.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\ml_r_rotate_o.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\ml_r_up.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\ml_r_up_o.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\zoom_in.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\zoom_in_o.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\zoom_out.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_right\zoom_out_o.png">
+      <Filter>Archivos de recursos\images\menu_right</Filter>
+    </Image>
+    <Image Include="images\menu_top\3d.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\3d_n.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\3d_o.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\algorithm.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\algorithm_n.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\algorithm_o.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\clean.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\clean_n.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\clean_o.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\find.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\find_n.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\find_o.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\menutop_bar.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\pause.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\pause_n.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\pause_o.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\play.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\play_n.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\play_o.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\route.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\route_n.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\route_o.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\send_cloud.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\send_cloud_n.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+    <Image Include="images\menu_top\send_cloud_o.png">
+      <Filter>Archivos de recursos\images\menu_top</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

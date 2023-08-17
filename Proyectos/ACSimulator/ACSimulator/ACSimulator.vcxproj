@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{F0734FE4-AB39-4544-B089-6D6C27C81004}</ProjectGuid>
+    <RootNamespace>ACSimulator</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>..\..\..\PostgresSQL\bin;..\..\..\PostgresSQL\lib;..\..\..\Libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\..\..\Proyectos\ACSimulator\ACSimulator;..\..\..\Proyectos\ACSimulator\ACSimulator\source;..\..\..\PostgresSQL\include;..\..\..\Includes\SOIL;..\..\..\Includes\glm;..\..\..\Includes\GLFW;..\..\..\Includes\freetype;..\..\..\Includes\GL;..\..\..\Includes;..\..\..\Includes\curl-7.86.0\include\curl;..\..\..\Includes\rapidjson;$(IncludePath)</IncludePath>
+    <OutDir>..\..\..\Bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\OPENGL\Includes;C:\OPENGL\PostgresSQL\include;C:\OPENGL\Includes\SOIL;C:\OPENGL\Includes\glm;C:\OPENGL\Includes\GLFW;C:\OPENGL\Includes\GL;C:\OPENGL\freetype-2.10.1\include;C:\OPENGL\Includes\freetype;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\OPENGL\PostgresSQL\lib;C:\OPENGL\PostgresSQL\bin;C:\OPENGL\Libs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>..\..\..\Proyectos\ACSimulator\ACSimulator;..\..\..\Proyectos\ACSimulator\ACSimulator\source;..\..\..\PostgresSQL64\include;..\..\..\Includes\SOIL;..\..\..\Includes\glm;..\..\..\Includes\GLFW;..\..\..\Includes\freetype;..\..\..\Includes\GL;..\..\..\Includes;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\..\PostgresSQL64\bin;..\..\..\PostgresSQL64\lib;..\..\..\Libs\64;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);</LibraryPath>
+    <OutDir>..\..\..\Bin\x64\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>freetype.lib;Ws2_32.lib;libpq.lib;opengl32.lib;SOIL.lib;glfw3.lib;glew32s.lib;freeglut.lib;assimpd.lib;libcurl.lib;libcurld.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Link>
+      <DelayLoadDLLs>assimpd.dll;libpq.dll;freeglut.dll;libcurl-d.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <DelayLoadDLLs>libpq.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <AdditionalDependencies>freeglut.lib;freetype.lib;libpq.lib;SOIL.lib;glfw3.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SupportNobindOfDelayLoadedDLL>false</SupportNobindOfDelayLoadedDLL>
+      <PreventDllBinding>false</PreventDllBinding>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;LIBCMT</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>freetype.lib;libpq.lib;opengl32.lib;SOIL.lib;glfw3.lib;glew32s.lib;freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>libpq.dll;freeglut.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="source\BaseDatos.h" />
+    <ClInclude Include="source\Camera.h" />
+    <ClInclude Include="source\Controls.h" />
+    <ClInclude Include="source\Drawing.h" />
+    <ClInclude Include="source\FileInfo.h" />
+    <ClInclude Include="source\framework.h" />
+    <ClInclude Include="source\GPSPoint.h" />
+    <ClInclude Include="source\Inrix.h" />
+    <ClInclude Include="source\Labels.h" />
+    <ClInclude Include="source\lang\Cadena.h" />
+    <ClInclude Include="source\lang\CadenaList.h" />
+    <ClInclude Include="source\lang\throwable\ComunicacionExcepcion.h" />
+    <ClInclude Include="source\lang\throwable\CorrompidoExcepcion.h" />
+    <ClInclude Include="source\lang\throwable\DesconocidoExcepcion.h" />
+    <ClInclude Include="source\lang\throwable\Excepcion.h" />
+    <ClInclude Include="source\lang\throwable\FormatoExcepcion.h" />
+    <ClInclude Include="source\lang\throwable\InterrupcionExcepcion.h" />
+    <ClInclude Include="source\lang\throwable\IOExcepcion.h" />
+    <ClInclude Include="source\lang\throwable\LlenoExcepcion.h" />
+    <ClInclude Include="source\lang\throwable\MemoriaExcepcion.h" />
+    <ClInclude Include="source\lang\throwable\MonitorExcepcion.h" />
+    <ClInclude Include="source\lang\throwable\NoAplicaExcepcion.h" />
+    <ClInclude Include="source\lang\throwable\NoExisteExcepcion.h" />
+    <ClInclude Include="source\lang\throwable\OcupadoExcepcion.h" />
+    <ClInclude Include="source\lang\throwable\ParametroExcepcion.h" />
+    <ClInclude Include="source\lang\throwable\PermisoExcepcion.h" />
+    <ClInclude Include="source\lang\throwable\RangoExcepcion.h" />
+    <ClInclude Include="source\lang\throwable\SinRecursosExcepcion.h" />
+    <ClInclude Include="source\lang\throwable\TimeoutExcepcion.h" />
+    <ClInclude Include="source\lang\Types.h" />
+    <ClInclude Include="source\lodepng.h" />
+    <ClInclude Include="source\Logic.h" />
+    <ClInclude Include="source\MapBoundary.h" />
+    <ClInclude Include="source\MapMng.h" />
+    <ClInclude Include="source\Mapper.h" />
+    <ClInclude Include="source\MapperDB.h" />
+    <ClInclude Include="source\Menu.h" />
+    <ClInclude Include="source\MenuLeft.h" />
+    <ClInclude Include="source\MenuRight.h" />
+    <ClInclude Include="source\Mesh.h" />
+    <ClInclude Include="source\Model.h" />
+    <ClInclude Include="source\NodeOrder.h" />
+    <ClInclude Include="source\ObjMng.h" />
+    <ClInclude Include="source\Overlapper.h" />
+    <ClInclude Include="source\pch.h" />
+    <ClInclude Include="source\PofI.h" />
+    <ClInclude Include="source\Proxy.h" />
+    <ClInclude Include="source\QuadMap.h" />
+    <ClInclude Include="source\Render.h" />
+    <ClInclude Include="source\resource.h" />
+    <ClInclude Include="source\Routing.h" />
+    <ClInclude Include="source\SectionMng.h" />
+    <ClInclude Include="source\Shader.h" />
+    <ClInclude Include="source\SimCurl.h" />
+    <ClInclude Include="source\Simulator.h" />
+    <ClInclude Include="source\Source.h" />
+    <ClInclude Include="source\targetver.h" />
+    <ClInclude Include="source\Tarif.h" />
+    <ClInclude Include="source\Test.h" />
+    <ClInclude Include="source\Texter.h" />
+    <ClInclude Include="source\texture.hpp" />
+    <ClInclude Include="source\Toller.h" />
+    <ClInclude Include="source\Tools.h" />
+    <ClInclude Include="source\Trace.h" />
+    <ClInclude Include="source\Traffic.h" />
+    <ClInclude Include="source\Triangulate.h" />
+    <ClInclude Include="source\Trip.h" />
+    <ClInclude Include="source\Vehiculo.h" />
+    <ClInclude Include="source\WayRender.h" />
+    <ClInclude Include="source\WayRenderMng.h" />
+    <ClInclude Include="source\WCtrl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\BaseDatos.cpp" />
+    <ClCompile Include="source\Controls.cpp" />
+    <ClCompile Include="source\Drawing.cpp" />
+    <ClCompile Include="source\FileInfo.cpp" />
+    <ClCompile Include="source\GPSPoint.cpp" />
+    <ClCompile Include="source\Inrix.cpp" />
+    <ClCompile Include="source\Labels.cpp" />
+    <ClCompile Include="source\lang\Cadena.cpp" />
+    <ClCompile Include="source\lang\CadenaList.cpp" />
+    <ClCompile Include="source\lang\throwable\ComunicacionExcepcion.cpp" />
+    <ClCompile Include="source\lang\throwable\CorrompidoExcepcion.cpp" />
+    <ClCompile Include="source\lang\throwable\DesconocidoExcepcion.cpp" />
+    <ClCompile Include="source\lang\throwable\Excepcion.cpp" />
+    <ClCompile Include="source\lang\throwable\FormatoExcepcion.cpp" />
+    <ClCompile Include="source\lang\throwable\InterrupcionExcepcion.cpp" />
+    <ClCompile Include="source\lang\throwable\IOExcepcion.cpp" />
+    <ClCompile Include="source\lang\throwable\LlenoExcepcion.cpp" />
+    <ClCompile Include="source\lang\throwable\MemoriaExcepcion.cpp" />
+    <ClCompile Include="source\lang\throwable\MonitorExcepcion.cpp" />
+    <ClCompile Include="source\lang\throwable\NoAplicaExcepcion.cpp" />
+    <ClCompile Include="source\lang\throwable\NoExisteExcepcion.cpp" />
+    <ClCompile Include="source\lang\throwable\OcupadoExcepcion.cpp" />
+    <ClCompile Include="source\lang\throwable\ParametroExcepcion.cpp" />
+    <ClCompile Include="source\lang\throwable\PermisoExcepcion.cpp" />
+    <ClCompile Include="source\lang\throwable\RangoExcepcion.cpp" />
+    <ClCompile Include="source\lang\throwable\SinRecursosExcepcion.cpp" />
+    <ClCompile Include="source\lang\throwable\TimeoutExcepcion.cpp" />
+    <ClCompile Include="source\lodepng.cpp" />
+    <ClCompile Include="source\Logic.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\MapBoundary.cpp" />
+    <ClCompile Include="source\MapMng.cpp" />
+    <ClCompile Include="source\Mapper.cpp" />
+    <ClCompile Include="source\MapperDB.cpp" />
+    <ClCompile Include="source\Menu.cpp" />
+    <ClCompile Include="source\MenuLeft.cpp" />
+    <ClCompile Include="source\MenuRight.cpp" />
+    <ClCompile Include="source\Mesh.cpp" />
+    <ClCompile Include="source\Model.cpp" />
+    <ClCompile Include="source\NodeOrder.cpp" />
+    <ClCompile Include="source\ObjMng.cpp" />
+    <ClCompile Include="source\Overlapper.cpp" />
+    <ClCompile Include="source\pch.cpp" />
+    <ClCompile Include="source\PofI.cpp" />
+    <ClCompile Include="source\Proxy.cpp" />
+    <ClCompile Include="source\QuadMap.cpp" />
+    <ClCompile Include="source\Render.cpp" />
+    <ClCompile Include="source\Routing.cpp" />
+    <ClCompile Include="source\SectionMng.cpp" />
+    <ClCompile Include="source\Shader.cpp" />
+    <ClCompile Include="source\SimCurl.cpp" />
+    <ClCompile Include="source\Simulator.cpp" />
+    <ClCompile Include="source\Source.cpp" />
+    <ClCompile Include="source\Tarif.cpp" />
+    <ClCompile Include="source\Test.cpp" />
+    <ClCompile Include="source\Texter.cpp" />
+    <ClCompile Include="source\texture.cpp" />
+    <ClCompile Include="source\Toller.cpp" />
+    <ClCompile Include="source\Tools.cpp" />
+    <ClCompile Include="source\Trace.cpp" />
+    <ClCompile Include="source\Traffic.cpp" />
+    <ClCompile Include="source\Triangulate.cpp" />
+    <ClCompile Include="source\Trip.cpp" />
+    <ClCompile Include="source\Vehiculo.cpp" />
+    <ClCompile Include="source\WayRender.cpp" />
+    <ClCompile Include="source\WayRenderMng.cpp" />
+    <ClCompile Include="source\WCtrl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dbase\crearbd.sql" />
+    <None Include="dbase\crearbd_1.sql" />
+    <None Include="dbase\crearbd_delta.sql" />
+    <None Include="dbase\crearbd_delta_2.sql" />
+    <None Include="dbase\crearbd_nodes.sql" />
+    <None Include="dbase\crearbd_node_pos.sql" />
+    <None Include="dbase\crearbd_quads.sql" />
+    <None Include="dbase\crearbd_relations.sql" />
+    <None Include="dbase\crearbd_segments.sql" />
+    <None Include="dbase\crearbd_traffic.sql" />
+    <None Include="dbase\crearbd_ways.sql" />
+    <None Include="dbase\crear_tr_aucat.sql" />
+    <None Include="dbase\db_filler_quads.pl" />
+    <None Include="dbase\db_filler_tables.pl" />
+    <None Include="dbase\db_filler_transitosaucat.pl" />
+    <None Include="dbase\db_filler_wayrender.pl" />
+    <None Include="etc\scripts\clean_trips.pl" />
+    <None Include="etc\scripts\execute.pl" />
+    <None Include="etc\scripts\getnodesfromsnap.pl" />
+    <None Include="etc\scripts\get_results.pl" />
+    <None Include="etc\scripts\get_trips.pl" />
+    <None Include="etc\scripts\get_trips_per_veh.pl" />
+    <None Include="etc\scripts\GPS_to_cvs.pl" />
+    <None Include="etc\scripts\load_test_generator.pl" />
+    <None Include="etc\scripts\load_test_generator_clean.pl" />
+    <None Include="etc\scripts\loop_load_test.pl" />
+    <None Include="etc\scripts\loop_load_test_clean.pl" />
+    <None Include="etc\scripts\move_veh_identifier.pl" />
+    <None Include="etc\scripts\newgetopt.pl" />
+    <None Include="etc\scripts\perf_files_gen.pl" />
+    <None Include="etc\scripts\perf_samefiles_gen.pl" />
+    <None Include="etc\scripts\recorrido.pl" />
+    <None Include="etc\scripts\scania_parser.pl" />
+    <None Include="etc\scripts\sender.pl" />
+    <None Include="etc\scripts\sender_simulator_files.pl" />
+    <None Include="etc\scripts\server_sock.pl" />
+    <None Include="etc\scripts\simulation.pl" />
+    <None Include="etc\scripts\snap2route.pl" />
+    <None Include="etc\scripts\timeconverter.pl" />
+    <None Include="etc\scripts\trip_converter.pl" />
+    <None Include="etc\scripts\veh_converter.pl" />
+    <None Include="etc\scripts\way_finder.pl" />
+    <None Include="images\grab.rgba" />
+    <None Include="shaders\drawing_line.frag" />
+    <None Include="shaders\drawing_line.vs" />
+    <None Include="shaders\drawing_point.frag" />
+    <None Include="shaders\drawing_point.vs" />
+    <None Include="shaders\highway.frag" />
+    <None Include="shaders\highway.vs" />
+    <None Include="shaders\highway_lanes.frag" />
+    <None Include="shaders\highway_lanes.vs" />
+    <None Include="shaders\highway_stuff.frag" />
+    <None Include="shaders\highway_stuff.vs" />
+    <None Include="shaders\mapper_line.frag" />
+    <None Include="shaders\mapper_line.vs" />
+    <None Include="shaders\mapper_surface.frag" />
+    <None Include="shaders\mapper_surface.vs" />
+    <None Include="shaders\menu.frag" />
+    <None Include="shaders\menu.vs" />
+    <None Include="shaders\menu_left.frag" />
+    <None Include="shaders\menu_left.vs" />
+    <None Include="shaders\menu_right.frag" />
+    <None Include="shaders\menu_right.vs" />
+    <None Include="shaders\object.frag" />
+    <None Include="shaders\object.vs" />
+    <None Include="shaders\render_line.frag" />
+    <None Include="shaders\render_line.vs" />
+    <None Include="shaders\render_point.frag" />
+    <None Include="shaders\render_point.vs" />
+    <None Include="shaders\section_mngr.frag" />
+    <None Include="shaders\section_mngr.vs" />
+    <None Include="shaders\spw.frag" />
+    <None Include="shaders\spw.vs" />
+    <None Include="shaders\text.frag" />
+    <None Include="shaders\text.vs" />
+    <None Include="shaders\text_plus.frag" />
+    <None Include="shaders\text_plus.vs" />
+    <None Include="shaders\toller_line.frag" />
+    <None Include="shaders\toller_line.vs" />
+    <None Include="shaders\toller_point.frag" />
+    <None Include="shaders\toller_point.vs" />
+    <None Include="shaders\tools.frag" />
+    <None Include="shaders\tools.vs" />
+    <None Include="shaders\tools_line.frag" />
+    <None Include="shaders\tools_line.vs" />
+    <None Include="shaders\tools_point.frag" />
+    <None Include="shaders\tools_point.vs" />
+    <None Include="shaders\trace_punto.frag" />
+    <None Include="shaders\trace_punto.vs" />
+    <None Include="shaders\traffic.frag" />
+    <None Include="shaders\traffic.vs" />
+    <None Include="test\in-out\in-out.xls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test\sections\section_c32_fin_ini.txt" />
+    <Text Include="..\..\..\Test\sections\section_c32_ini_fin.txt" />
+    <Text Include="etc\config\AP7_toll_distance.txt" />
+    <Text Include="etc\config\mapper.txt" />
+    <Text Include="etc\config\mapper_generator.txt" />
+    <Text Include="etc\config\map_processor.txt" />
+    <Text Include="etc\config\texter.txt" />
+    <Text Include="etc\config\wayrender.txt" />
+    <Text Include="test\algorithms\AlgTest.txt" />
+    <Text Include="test\algorithms\AUCAT_1.txt" />
+    <Text Include="test\algorithms\AUCAT_2.txt" />
+    <Text Include="test\algorithms\AUCAT_MASTER_V01.txt" />
+    <Text Include="test\algorithms\SourceTrip_1.txt" />
+    <Text Include="test\algorithms\SourceTrip_2.txt" />
+    <Text Include="test\detectors\aucat.txt" />
+    <Text Include="test\detectors\aucat_nodes_e_s.txt" />
+    <Text Include="test\in-out\aucat_v1.0.txt" />
+    <Text Include="test\labels\aucat.txt" />
+    <Text Include="test\routes\all_AUCAT_south.txt" />
+    <Text Include="test\routes\AUCAT_N_CLFLL_CUNIT.txt" />
+    <Text Include="test\routes\AUCAT_N_SCLFELL_VLYLAGTRU.txt" />
+    <Text Include="test\routes\AUCAT_N_VDRLL_BCN.txt" />
+    <Text Include="test\routes\AUCAT_N_VLLFPE_SITGES.txt" />
+    <Text Include="test\routes\AUCAT_S_CTF_SITGES.txt" />
+    <Text Include="test\routes\AUCAT_S_SPRRIB_LARBOC.txt" />
+    <Text Include="test\routes\AUCAT_S_VLF_CUNIT.txt" />
+    <Text Include="test\routes\fin_aucat_s06.txt" />
+    <Text Include="test\routes\fin_aucat_s13.txt" />
+    <Text Include="test\routes\s06_s13.txt" />
+    <Text Include="test\routes\s06_s16.txt" />
+    <Text Include="test\routes\s06_s21.txt" />
+    <Text Include="test\routes\s06_s26.txt" />
+    <Text Include="test\routes\s10_s13.txt" />
+    <Text Include="test\routes\s10_s16.txt" />
+    <Text Include="test\routes\s10_s21.txt" />
+    <Text Include="test\routes\s10_s46.txt" />
+    <Text Include="test\routes\s10_s50.txt" />
+    <Text Include="test\routes\s21_s13.txt" />
+    <Text Include="test\routes\s21_s26.txt" />
+    <Text Include="test\routes\s26_s50.txt" />
+    <Text Include="test\routes\s30_s02.txt" />
+    <Text Include="test\routes\s30_s03.txt" />
+    <Text Include="test\routes\s30_s10.txt" />
+    <Text Include="test\routes\s30_s31.txt" />
+    <Text Include="test\routes\s30_s41.txt" />
+    <Text Include="test\routes\s30_s44.txt" />
+    <Text Include="test\routes\s41_s02.txt" />
+    <Text Include="test\routes\s41_s30.txt" />
+    <Text Include="test\routes\s44_s28.txt" />
+    <Text Include="test\routes\s44_s31.txt" />
+    <Text Include="test\routes\s46_s03.txt" />
+    <Text Include="test\routes\s46_s13.txt" />
+    <Text Include="test\routes\s46_s53.txt" />
+    <Text Include="test\routes\s50_s02.txt" />
+    <Text Include="test\routes\s50_s42.txt" />
+    <Text Include="test\routes\s53_s48.txt" />
+    <Text Include="test\sources\aucat_1.txt" />
+    <Text Include="test\sources\aucat_2.txt" />
+    <Text Include="test\sources\aucat_3.txt" />
+    <Text Include="test\sources\aucat_s26_s50.txt" />
+    <Text Include="test\sources\aucat_s30_s03.txt" />
+    <Text Include="test\sources\aucat_s30_s10.txt" />
+    <Text Include="test\sources\aucat_s30_s31.txt" />
+    <Text Include="test\sources\aucat_s30_s41.txt" />
+    <Text Include="test\sources\aucat_s30_s44.txt" />
+    <Text Include="test\sources\aucat_s41_s02.txt" />
+    <Text Include="test\sources\aucat_s41_s30.txt" />
+    <Text Include="test\sources\aucat_s46_s03.txt" />
+    <Text Include="test\sources\aucat_s46_s13.txt" />
+    <Text Include="test\sources\aucat_s46_s53.txt" />
+    <Text Include="test\sources\aucat_slow_1.txt" />
+    <Text Include="test\sources\aucat_uslow_1.txt" />
+    <Text Include="test\sources\S1.txt" />
+    <Text Include="test\sources\S2.txt" />
+    <Text Include="test\trips\route_140322-162141.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ACSimulator.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\borde.png" />
+    <Image Include="images\building.png" />
+    <Image Include="images\button_base.png" />
+    <Image Include="images\car_3_white.png" />
+    <Image Include="images\forest.png" />
+    <Image Include="images\forest2.jpg" />
+    <Image Include="images\forest2.png" />
+    <Image Include="images\grab.bmp" />
+    <Image Include="images\grab.png" />
+    <Image Include="images\menu_left\color_picker.png" />
+    <Image Include="images\menu_left\color_picker_n.png" />
+    <Image Include="images\menu_left\color_picker_o.png" />
+    <Image Include="images\menu_left\create_trip.png" />
+    <Image Include="images\menu_left\create_trip_n.png" />
+    <Image Include="images\menu_left\create_trip_o.png" />
+    <Image Include="images\menu_left\detector.png" />
+    <Image Include="images\menu_left\detector_n.png" />
+    <Image Include="images\menu_left\detector_o.png" />
+    <Image Include="images\menu_left\menuleft_bar.png" />
+    <Image Include="images\menu_left\text.png" />
+    <Image Include="images\menu_left\text_n.png" />
+    <Image Include="images\menu_left\text_o.png" />
+    <Image Include="images\menu_right\ml_mv_down.png" />
+    <Image Include="images\menu_right\ml_mv_down_o.png" />
+    <Image Include="images\menu_right\ml_mv_left.png" />
+    <Image Include="images\menu_right\ml_mv_left_o.png" />
+    <Image Include="images\menu_right\ml_mv_move.png" />
+    <Image Include="images\menu_right\ml_mv_move_o.png" />
+    <Image Include="images\menu_right\ml_mv_right.png" />
+    <Image Include="images\menu_right\ml_mv_right_o.png" />
+    <Image Include="images\menu_right\ml_mv_up.png" />
+    <Image Include="images\menu_right\ml_mv_up_o.png" />
+    <Image Include="images\menu_right\ml_r_down.png" />
+    <Image Include="images\menu_right\ml_r_down_o.png" />
+    <Image Include="images\menu_right\ml_r_left.png" />
+    <Image Include="images\menu_right\ml_r_left_o.png" />
+    <Image Include="images\menu_right\ml_r_right.png" />
+    <Image Include="images\menu_right\ml_r_right_o.png" />
+    <Image Include="images\menu_right\ml_r_rotate.png" />
+    <Image Include="images\menu_right\ml_r_rotate_o.png" />
+    <Image Include="images\menu_right\ml_r_up.png" />
+    <Image Include="images\menu_right\ml_r_up_o.png" />
+    <Image Include="images\menu_right\zoom_in.png" />
+    <Image Include="images\menu_right\zoom_in_o.png" />
+    <Image Include="images\menu_right\zoom_out.png" />
+    <Image Include="images\menu_right\zoom_out_o.png" />
+    <Image Include="images\menu_top\3d.png" />
+    <Image Include="images\menu_top\3d_n.png" />
+    <Image Include="images\menu_top\3d_o.png" />
+    <Image Include="images\menu_top\algorithm.png" />
+    <Image Include="images\menu_top\algorithm_n.png" />
+    <Image Include="images\menu_top\algorithm_o.png" />
+    <Image Include="images\menu_top\clean.png" />
+    <Image Include="images\menu_top\clean_n.png" />
+    <Image Include="images\menu_top\clean_o.png" />
+    <Image Include="images\menu_top\find.png" />
+    <Image Include="images\menu_top\find_n.png" />
+    <Image Include="images\menu_top\find_o.png" />
+    <Image Include="images\menu_top\menutop_bar.png" />
+    <Image Include="images\menu_top\pause.png" />
+    <Image Include="images\menu_top\pause_n.png" />
+    <Image Include="images\menu_top\pause_o.png" />
+    <Image Include="images\menu_top\play.png" />
+    <Image Include="images\menu_top\play_n.png" />
+    <Image Include="images\menu_top\play_o.png" />
+    <Image Include="images\menu_top\route.png" />
+    <Image Include="images\menu_top\route_n.png" />
+    <Image Include="images\menu_top\route_o.png" />
+    <Image Include="images\menu_top\send_cloud.png" />
+    <Image Include="images\menu_top\send_cloud_n.png" />
+    <Image Include="images\menu_top\send_cloud_o.png" />
+    <Image Include="images\motorcycle.png" />
+    <Image Include="images\particle.dds" />
+    <Image Include="images\pavement.png" />
+    <Image Include="images\point.png" />
+    <Image Include="images\points.png" />
+    <Image Include="images\point_circle.png" />
+    <Image Include="images\simulator.png" />
+    <Image Include="images\sky.jpg" />
+    <Image Include="images\truck.png" />
+    <Image Include="images\water.jpg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,14 @@
+#--------------------------------------------------------------------------------------------------------------------------------------------
+TYPE;MAP_TEXT
+FORMAT;  STR;file            ; STR;name        ;  DD;pos_z  ;  INT;quad_size ;  DD;size_txt  ;  DD;color_r  ;  DD;color_g  ;  DD;color_b  
+#--------------------------------------------------------------------------------------------------------------------------------------------
+        place_city           ; city            ;  20000     ;  500           ;  0.3           ;  0.0         ;  0.0         ;  0.0     
+        place_town           ; town            ;     50     ;  100           ;  0.3           ;  0.1         ;  0.0         ;  0.0      
+#       place_village        ; village         ;     20     ;   50           ;  0.2           ;  0.0         ;  0.0         ;  0.0 
+#       place_neighbourhood  ; neighbourhood   ;     10     ;   10           ;  0.2           ;  0.0         ;  0.0         ;  0.0  
+#       place_suburb         ; suburb          ;     10     ;   10           ;  0.2           ;  0.0         ;  0.0         ;  0.0 
+#       place_locality       ; locality        ;     10     ;   10           ;  0.2           ;  0.0         ;  0.0         ;  0.0 
+#       textway_residential  ; residential     ;      5     ;   10           ;  0.2           ;  0.0         ;  0.0         ;  0.0 
+        labels               ; labels          ;  20000     ;    0           ;  0.4           ;  0.1         ;  0.05        ;  0.6
+
+

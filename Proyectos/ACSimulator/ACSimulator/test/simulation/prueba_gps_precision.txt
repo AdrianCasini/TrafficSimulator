@@ -1,0 +1,5 @@
+#--------------------------------------------------------------------------------------------------------------------
+TYPE; SOURCETRIP                                                                                                     
+FORMAT; STR; SOURCE_FILE; STR; SOURCE_FILE; STR; TYPE; STR; TRIP_FILE; STR; EST_IN; STR; EST_OUT; INT; ITERATION     
+#--------------------------------------------------------------------------------------------------------------------
+SOURCE;alg_overpass_2_cars.txt;TRIP;route_220630113647.txt;ent;sal;1

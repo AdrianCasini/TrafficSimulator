@@ -1,0 +1,5 @@
+#--------------------------------------------------------------------------------------------------------------------
+TYPE; SOURCETRIP                                                                                                     
+FORMAT; STR; SOURCE_FILE; STR; SOURCE_FILE; STR; TYPE; STR; TRIP_FILE; STR; EST_IN; STR; EST_OUT; INT; ITERATION     
+#--------------------------------------------------------------------------------------------------------------------
+SOURCE;random_acceso_uslow.txt;TRIP;route_.txt;ent;sal;2000

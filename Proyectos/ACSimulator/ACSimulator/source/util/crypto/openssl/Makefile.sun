@@ -1,0 +1,28 @@
+
+MYFLAGS= -xarch=v9 -I/usr/local/ssl/include
+
+MYOBJS  =
+MYOBJS += interfazhost.o
+
+all:    clavesstarix viewclaves cryptpan decryptpan
+
+clavesstarix: interfazhost.o clavesstarix.c
+                CC $(MYFLAGS) interfazhost.o clavesstarix.c -o clavesstarix -lcrypto
+
+viewclaves: interfazhost.o viewclaves.c
+                CC $(MYFLAGS) interfazhost.o viewclaves.c -o viewclaves -lcrypto
+
+cryptpan: interfazhost.o cryptpan.c
+                CC $(MYFLAGS) interfazhost.o cryptpan.c -o cryptpan -lcrypto
+
+decryptpan: interfazhost.o decryptpan.c
+                CC $(MYFLAGS) interfazhost.o decryptpan.c -o decryptpan -lcrypto
+
+
+clean:
+                        rm *.o clavesstarix viewclaves cryptpan decryptpan
+
+interfazhost.o: interfazhost.c interfazhost.h
+                        CC $(MYFLAGS) -c -I. -o interfazhost.o interfazhost.c
+
+

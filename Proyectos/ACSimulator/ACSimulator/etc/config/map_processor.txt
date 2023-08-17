@@ -1,0 +1,79 @@
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------
+TYPE;MAP_PROCESSOR
+FORMAT; STR;FILENAME  ;   STR;DB_KEYTAG ;  STR; DB_VALUE     ; STR; DRAWTYPE    ;DD;QUADSZ ;  DD;LINEW  ;  STR;REL   ; STR; DB_TABLE_NAME   
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------
+# RELATIONS
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------
+#landuse_forest         ;   landuse   ;   forest               ;   surface       ;   500    ;            ;   true   ;   Way_nodes_rel_landuse_forest
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------
+#LINES SURFACE
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------
+#natural_coastline     ;   natural   ;   coastline            ;   line_surface   ;   500   ;   0.002    ;   false   ;   Way_nodes_natural_coastline
+
+#admin_level_11        ;   admin_level   ;   11               ;   line_surface   ;   50    ;   0.002    ;   false   ;   Way_nodes_admin_level_11
+#admin_level_10        ;   admin_level   ;   10               ;   line_surface   ;   50    ;   0.002    ;   false   ;   Way_nodes_admin_level_10
+#admin_level_9         ;   admin_level   ;   9                ;   line_surface   ;   50    ;   0.002    ;   false   ;   Way_nodes_admin_level_9
+#admin_level_8         ;   admin_level   ;   8                ;   line_surface   ;   50    ;   0.002    ;   false   ;   Way_nodes_admin_level_8
+#admin_level_7         ;   admin_level   ;   7                ;   line_surface   ;   50    ;   0.002    ;   false   ;   Way_nodes_admin_level_7
+#admin_level_6         ;   admin_level   ;   6                ;   line_surface   ;   50    ;   0.002    ;   false   ;   Way_nodes_admin_level_6
+#admin_level_5         ;   admin_level   ;   5                ;   line_surface   ;   50    ;   0.002    ;   false   ;   Way_nodes_admin_level_5
+#admin_level_4         ;   admin_level   ;   4                ;   line_surface   ;   50    ;   0.002    ;   false   ;   Way_nodes_admin_level_4
+#admin_level_3         ;   admin_level   ;   3                ;   line_surface   ;   50    ;   0.002    ;   false   ;   Way_nodes_admin_level_3
+#admin_level_2         ;   admin_level   ;   2                ;   line_surface   ;   50    ;   0.002    ;   false   ;   Way_nodes_admin_level_2
+#admin_level_1         ;   admin_level   ;   1                ;   line_surface   ;   50    ;   0.002    ;   false   ;   Way_nodes_admin_level_1
+#railway_rail          ;   railway       ;   rail             ;   line_surface   ;   50    ;   0.0010   ;   false   ;   Way_nodes_railway_rail
+#railway_subway        ;   railway       ;   subway           ;   line_surface   ;   20    ;   0.0010   ;   false   ;   Way_nodes_railway_subway
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------
+#LINES
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------
+#way_trunk             ;   highway       ;   trunk            ;  line            ;   300    ;            ;   false   ;   Way_nodes_highway_trunk
+#way_trunk_link        ;   highway       ;   trunk_link       ;  line            ;   300    ;            ;   false   ;   Way_nodes_highway_trunk_link
+#way_motorway          ;   highway       ;   motorway         ;  line            ;   100    ;            ;   false   ;   Way_nodes_highway_motorway
+#way_motorway_link     ;   highway       ;   motorway_link    ;  line            ;   100    ;            ;   false   ;   Way_nodes_highway_motorway_link
+#way_primary           ;   highway       ;   primary          ;  line            ;   100    ;            ;   false   ;   Way_nodes_highway_primary
+#way_primary_link      ;   highway       ;   primary_link     ;  line            ;   100    ;            ;   false   ;   Way_nodes_highway_primary_link
+#way_secondary         ;   highway       ;   secondary        ;  line            ;    50    ;            ;   false   ;   Way_nodes_highway_secondary
+#way_secondary_link    ;   highway       ;   secondary_link   ;  line            ;    50    ;            ;   false   ;   Way_nodes_highway_secondary_link	
+#way_tertiary          ;   highway       ;   tertiary         ;  line            ;    50    ;            ;   false   ;   Way_nodes_highway_tertiary
+#way_tertiary_link     ;   highway       ;   tertiary_link    ;  line            ;    50    ;            ;   false   ;   Way_nodes_highway_tertiary_link
+#way_unclassified      ;   highway       ;   unclassified     ;  line            ;    10    ;            ;   false   ;   Way_nodes_highway_unclassified
+#way_service           ;   highway       ;   service          ;  line            ;    10    ;            ;   false   ;   Way_nodes_highway_service
+#way_residential       ;   highway       ;   residential      ;  line            ;    10    ;            ;   false   ;   Way_nodes_highway_residential
+#way_track             ;   highway       ;   track            ;  line            ;    10    ;            ;   false   ;   Way_nodes_highway_track
+#way_living_street     ;   highway       ;   living_street    ;  line            ;    10    ;            ;   false   ;   Way_nodes_highway_living_street
+#way_road              ;   highway       ;   road             ;  line            ;    10    ;            ;   false   ;   Way_nodes_highway_road
+#way_escape            ;   highway       ;   escape           ;  line            ;    10    ;            ;   false   ;   Way_nodes_highway_escape	
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------
+#HIGHWAY NOT FOR VEHICLES
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------
+#way_pedestrian        ;   highway       ;   pedestrian       ;   line           ;    10    ;            ;   false   ;   Way_nodes_highway_pedestrian
+#way_path              ;   highway       ;   path             ;   line           ;    10    ;            ;   false   ;   Way_nodes_highway_path
+#way_footway           ;   highway       ;   footway          ;   line           ;    10    ;            ;   false   ;   Way_nodes_highway_footway
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------
+#BUILDING
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------
+#building_any          ;    building    ;   ANY               ;   line           ;      5   ;            ;   false   ;   Way_nodes_building_any
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------
+#SURFACE
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------
+#landuse_forest        ;   landuse      ;   forest            ;   surface        ;    20    ;            ;   false   ;   Way_nodes_landuse_forest	
+#building_yes          ;   building     ;   yes               ;   surface        ;     5    ;            ;   false   ;   Way_nodes_building_yes
+#landuse_industrial    ;   landuse      ;   industrial        ;   surface        ;    20    ;            ;   false   ;   Way_nodes_landuse_industrial
+#building_residential  ;   building     ;   residential       ;   surface        ;    10    ;            ;   false   ;   Way_nodes_building_residential
+#building_apartments   ;   building     ;   apartments        ;   surface        ;    10    ;            ;   false   ;   Way_nodes_building_apartments
+#building_industrial   ;   building     ;   industrial        ;   surface        ;    10    ;            ;   false   ;   Way_nodes_building_industrial
+#building-levels       ;   building:levels;  ANY              ;   surface        ;     5    ;            ;   false   ;   Way_nodes_building-levels
+#leisure_park          ;   leisure      ;   park              ;   surface        ;    20    ;            ;   false   ;   Way_nodes_leisure_park
+#natural_water         ;   natural      ;   water             ;   surface        ;     50   ;            ;   false   ;   Way_nodes_natural_water
+#barrier_toll_booth    ;   barrier      ;   toll_booth        ;   surface        ;    100   ;            ;   false   ;   Way_nodes_barrier_toll_booth
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------
+#TEXT
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------
+place_city            ;   place        ;   city               ;   text           ;   500    ;            ;   false   ;   Text_nodes_place_city
+place_town            ;   place        ;   town               ;   text           ;   20     ;            ;   false   ;   Text_nodes_place_town
+place_village         ;   place        ;   village            ;   text           ;    10    ;            ;   false   ;   Text_nodes_place_village
+place_neighbourhood   ;   place        ;   neighbourhood      ;   text           ;    5     ;            ;   false   ;   Text_nodes_place_neighbourhood
+place_suburb          ;   place        ;   suburb             ;   text           ;    5     ;            ;   false   ;   Text_nodes_place_suburb
+place_locality        ;   place        ;   locality           ;   text           ;    5     ;            ;   false   ;   Text_nodes_place_locality
+place_residential     ;   name         ;   ANY                ;   text           ;     5    ;            ;   false   ;   Text_nodes_place_residential	

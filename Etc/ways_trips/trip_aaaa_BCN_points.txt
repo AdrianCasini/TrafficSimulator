@@ -1,0 +1,2 @@
+-1#trip_BCNpoints.txt
+-2#kk

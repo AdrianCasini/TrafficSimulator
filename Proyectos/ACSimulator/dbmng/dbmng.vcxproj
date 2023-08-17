@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{e99465a6-9d45-4acc-951e-da6d2b93368a}</ProjectGuid>
+    <RootNamespace>dbmng</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\..\Bin\</OutDir>
+    <IncludePath>..\..\..\Proyectos\ACSimulator\ACSimulator\source;..\..\..\Proyectos\ACSimulator\Procesors;..\..\..\Includes\SOIL;..\..\..\Includes\glm;..\..\..\Includes\GLF;..\..\..\Includes\GL;..\..\..\Includes;..\..\..\PostgresSQL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\..\PostgresSQL\bin;..\..\..\PostgresSQL\lib;..\..\..\Libs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>..\..\..\Proyectos\ACSimulator\ACSimulator\source;..\..\..\Proyectos\ACSimulator\dbmng;..\..\..\Includes\SOIL;..\..\..\Includes\glm;..\..\..\Includes\GLFW;..\..\..\Includes\GL;..\..\..\Includes;..\..\..\Includes\curl-7.86.0\include\curl;..\..\..\PostgresSQL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\..\PostgresSQL\bin;..\..\..\PostgresSQL\lib;..\..\..\Libs;$(LibraryPath)</LibraryPath>
+    <OutDir>..\..\..\Bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>freetype.lib;libpq.lib;opengl32.lib;SOIL.lib;glfw3.lib;glew32s.lib;libcurl.lib;libcurld.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>assimpd.dll;libpq.dll;freeglut.dll;libcurl-d.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>freetype.lib;libpq.lib;opengl32.lib;SOIL.lib;glfw3.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ACSimulator\source\FileInfo.h" />
+    <ClInclude Include="BaseDatos.h" />
+    <ClInclude Include="Control.h" />
+    <ClInclude Include="DBMapFill.h" />
+    <ClInclude Include="DBMngr.h" />
+    <ClInclude Include="DBTrafficFill.h" />
+    <ClInclude Include="lang\Cadena.h" />
+    <ClInclude Include="lang\CadenaList.h" />
+    <ClInclude Include="lang\throwable\ComunicacionExcepcion.h" />
+    <ClInclude Include="lang\throwable\CorrompidoExcepcion.h" />
+    <ClInclude Include="lang\throwable\DesconocidoExcepcion.h" />
+    <ClInclude Include="lang\throwable\Excepcion.h" />
+    <ClInclude Include="lang\throwable\FormatoExcepcion.h" />
+    <ClInclude Include="lang\throwable\InterrupcionExcepcion.h" />
+    <ClInclude Include="lang\throwable\IOExcepcion.h" />
+    <ClInclude Include="lang\throwable\LlenoExcepcion.h" />
+    <ClInclude Include="lang\throwable\MemoriaExcepcion.h" />
+    <ClInclude Include="lang\throwable\MonitorExcepcion.h" />
+    <ClInclude Include="lang\throwable\NoAplicaExcepcion.h" />
+    <ClInclude Include="lang\throwable\NoExisteExcepcion.h" />
+    <ClInclude Include="lang\throwable\OcupadoExcepcion.h" />
+    <ClInclude Include="lang\throwable\ParametroExcepcion.h" />
+    <ClInclude Include="lang\throwable\PermisoExcepcion.h" />
+    <ClInclude Include="lang\throwable\RangoExcepcion.h" />
+    <ClInclude Include="lang\throwable\SinRecursosExcepcion.h" />
+    <ClInclude Include="lang\throwable\TimeoutExcepcion.h" />
+    <ClInclude Include="lang\Types.h" />
+    <ClInclude Include="Texter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ACSimulator\source\FileInfo.cpp" />
+    <ClCompile Include="..\ACSimulator\source\lodepng.cpp" />
+    <ClCompile Include="..\ACSimulator\source\Simulator.cpp" />
+    <ClCompile Include="..\ACSimulator\source\texture.cpp" />
+    <ClCompile Include="BaseDatos.cpp" />
+    <ClCompile Include="Control.cpp" />
+    <ClCompile Include="DBMapFill.cpp" />
+    <ClCompile Include="DBMngr.cpp" />
+    <ClCompile Include="DBTrafficFill.cpp" />
+    <ClCompile Include="lang\Cadena.cpp" />
+    <ClCompile Include="lang\CadenaList.cpp" />
+    <ClCompile Include="lang\throwable\ComunicacionExcepcion.cpp" />
+    <ClCompile Include="lang\throwable\CorrompidoExcepcion.cpp" />
+    <ClCompile Include="lang\throwable\DesconocidoExcepcion.cpp" />
+    <ClCompile Include="lang\throwable\Excepcion.cpp" />
+    <ClCompile Include="lang\throwable\FormatoExcepcion.cpp" />
+    <ClCompile Include="lang\throwable\InterrupcionExcepcion.cpp" />
+    <ClCompile Include="lang\throwable\IOExcepcion.cpp" />
+    <ClCompile Include="lang\throwable\LlenoExcepcion.cpp" />
+    <ClCompile Include="lang\throwable\MemoriaExcepcion.cpp" />
+    <ClCompile Include="lang\throwable\MonitorExcepcion.cpp" />
+    <ClCompile Include="lang\throwable\NoAplicaExcepcion.cpp" />
+    <ClCompile Include="lang\throwable\NoExisteExcepcion.cpp" />
+    <ClCompile Include="lang\throwable\OcupadoExcepcion.cpp" />
+    <ClCompile Include="lang\throwable\ParametroExcepcion.cpp" />
+    <ClCompile Include="lang\throwable\PermisoExcepcion.cpp" />
+    <ClCompile Include="lang\throwable\RangoExcepcion.cpp" />
+    <ClCompile Include="lang\throwable\SinRecursosExcepcion.cpp" />
+    <ClCompile Include="lang\throwable\TimeoutExcepcion.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Texter.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

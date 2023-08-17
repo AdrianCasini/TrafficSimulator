@@ -1,0 +1,51 @@
+{
+	"version": "1.0",           				            
+	"transmissionTime" : 1657778342,    				            
+	"records" :
+	[
+		{		                
+			"record_id": 1380,                        
+			"vehicle_id" : 1975,                        
+			"time_stamp" : "2022-07-14T07:59:02",                        
+			"detector_type" : "GPS",                        
+			"detector_id" : "",                        
+			"category" : "T2",		                
+			"latitude" : 41.248885,		                
+			"longitude" : 1.813288,		                
+			"heading" : 62.24,		                
+			"speed" : 45,		                
+			"lane" : 1,		                
+			"license_plate" : "1975 SIM"		                
+		}
+		,
+		{		                
+			"record_id": 1381,                        
+			"vehicle_id" : 1977,                        
+			"time_stamp" : "2022-07-14T07:59:02",                        
+			"detector_type" : "GPS",                        
+			"detector_id" : "",                        
+			"category" : "T2",		                
+			"latitude" : 41.336374,		                
+			"longitude" : 2.081191,		                
+			"heading" : 206.22,		                
+			"speed" : 64,		                
+			"lane" : 1,		                
+			"license_plate" : "1977 SIM"		                
+		}
+		,
+		{		                
+			"record_id": 1382,                        
+			"vehicle_id" : 1970,                        
+			"time_stamp" : "2022-07-14T07:59:02",                        
+			"detector_type" : "GPS",                        
+			"detector_id" : "",                        
+			"category" : "T2",		                
+			"latitude" : 41.335703,		                
+			"longitude" : 2.079376,		                
+			"heading" : 206.22,		                
+			"speed" : 64,		                
+			"lane" : 1,		                
+			"license_plate" : "1970 SIM"		                
+		}
+	]
+}

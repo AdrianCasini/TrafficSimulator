@@ -1,0 +1,106 @@
+#!c:\Perl64\bin\perl.exe
+
+#================================================================
+# Fichero db_filer
+#================================================================
+#  FICHERO: db_filler for hgway 
+#  DESCRIPCION:
+#  FECHA CREACION: 15-10-2019
+#  AUTOR DISENYO: Another perl/tk masterpiece of Adrian Casini
+#  PROGRAMADOR:   Adrian Casini
+#================================================================
+
+#------- Initialization ---------
+use DBI;
+use DBD::Pg qw(:pg_types);
+$HOST='localhost';
+$DBH=&db_connect();
+
+$SQL_ST = "SELECT * FROM Way_tags WHERE key_tag LIKE 'destination' AND value = 'AP-7'";
+$SQL_ST = "SELECT wid FROM Way_tags WHERE key_tag = 'highway' AND value = 'motorway_link'"; 
+$SQL_ST = "SELECT wid FROM Way_tags WHERE key_tag = 'highway' AND value = 'motorway_junction'"; 
+$SQL_ST = "SELECT wid FROM Way_tags WHERE key_tag = 'ref' AND value = 'AP-7'";
+
+$sth = $DBH->prepare("$SQL_ST");
+$sth->execute();  
+
+$row = $sth->rows;
+
+$index = 0;
+foreach ($i=0;$i<$row;$i++)
+{
+    my $wid = 0;
+	$wid = $sth->fetchrow_array();
+    $hash_wid_acceso_ap7{$index} = $wid;
+	$index++;
+	#print "$wid\n";
+}
+$sth->finish();
+
+
+$index = 0;
+foreach $wid (keys %hash_wid_acceso_ap7)
+{
+    #print "==================================================================================\n";
+	#$SQL_ST = "SELECT * FROM Way_tags WHERE wid =  $hash_wid_acceso_ap7{$wid}";
+	$SQL_ST = "SELECT Way_nodes.nid FROM Way_nodes LEFT OUTER JOIN Node_pos ON(Way_nodes.nid = Node_pos.nid) WHERE Way_nodes.wid = $hash_wid_acceso_ap7{$wid} ORDER BY Way_nodes.norder ASC";
+	$sth = $DBH->prepare("$SQL_ST");
+	$sth->execute();  
+	$row = $sth->rows;
+
+	foreach ($i=0;$i<$row;$i++)
+	{
+		@dum = ();
+		($nid) = $sth->fetchrow_array();
+		$hash_nid_acceso_ap7{$index} = $nid;
+		$index++;
+		#print "$nid\n";
+
+
+	}
+	$sth->finish();
+}
+
+
+foreach $nid (keys %hash_nid_acceso_ap7)
+{
+    #print "==================================================================================\n";
+	$SQL_ST = "SELECT * FROM Node_tags WHERE nid =  $hash_nid_acceso_ap7{$nid} AND value = 'motorway_junction'"; 
+    $sth = $DBH->prepare("$SQL_ST");
+	$sth->execute();  
+	$row = $sth->rows;
+
+	foreach ($i=0;$i<$row;$i++)
+	{
+		@dum = ();
+		@dum = $sth->fetchrow_array();
+		join("---", @dum);
+		print "@dum\n";
+
+	}
+	$sth->finish();
+}
+
+
+
+&db_disconnect($DBH);
+
+#---------------------------------------------------------------------------------------
+sub db_connect
+{
+   my ($dbh)=@_;
+   $dbh = DBI->connect("dbi:Pg:dbname=hgway;
+      host=localhost;
+      port=5432",
+      'acasini', 
+      '');
+
+   return $dbh;
+}
+
+#---------------------------------------------------------------------------------------
+sub db_disconnect
+{
+   my ($dbh)=@_;
+   $dbh->disconnect(); 
+}

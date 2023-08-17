@@ -1,0 +1,21 @@
+{
+	"version": "1.0",           				            
+	"transmissionTime" : 1656329262,    				            
+	"records" :
+	[
+		{		                
+			"record_id": 1,                        
+			"vehicle_id" : 1,                        
+			"time_stamp" : "2022-06-27T13:27:57",                        
+			"detector_type" : "GPS",                        
+			"detector_id" : "",                        
+			"category" : "T2",		                
+			"latitude" : 41.336403,		                
+			"longitude" : 2.081270,		                
+			"heading" : 206.22,		                
+			"speed" : 62,		                
+			"lane" : 1,		                
+			"license_plate" : "0001 SIM"		                
+		}
+	]
+}

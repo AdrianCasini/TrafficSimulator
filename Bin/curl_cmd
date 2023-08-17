@@ -1,0 +1,1 @@
+curl -v --location --request POST 'https://s15996gji8.execute-api.eu-west-1.amazonaws.com/prod/eurotoll/upload' --header 'Content-Type: application/json' --header 'Authorization: Basic ZXVyb3RvbGxfc2VydmljZV9wcm9kOlRMbGZHcFdHNDlyNkNyYXo=' -d "@../LoadTest/Lunes/trip_102104_0000_310521081934.txt"

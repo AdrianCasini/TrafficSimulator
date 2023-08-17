@@ -1,0 +1,6 @@
+#TEXTO COMENTARIOS ###################################################################################################################
+#
+#   Est Ent # Est Sal # Speed # Category # GPS Dongle ID # Time Following mseconds # GPS Inaccuracy X-Y meters # GPS point event seconds
+#########################################################################################################################################
+TYPE#FILE_ROUTE
+VEHICLE_WAY_INFO#route_110522-161804.txt#80#T2#830202000200000#3000#0#3

@@ -1,0 +1,6 @@
+#---------------------------------------------------------------------------------------------------------------------
+TYPE;SOURCETRIP
+FORMAT;STR;SOURCE_FILE;STR;SOURCE_FILE;STR;TYPE;STR;TRIP_FILE;STR;EST_IN;STR;EST_OUT;INT;ITERATION
+#---------------------------------------------------------------------------------------------------------------------
+SOURCE;alg_overpass.txt;TRIP;algoritmo_overpassing_.txt;ent;sal;2000
+

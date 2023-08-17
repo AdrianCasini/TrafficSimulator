@@ -1,0 +1,12 @@
+{
+	"version": "1.0",
+	"clientReference" : "SIMULATOR0",
+	"psn" : "830202000200000",
+	"vehicleReference" : "0",
+	"lpn" : "1000 SIM",
+	"lpCountry" : "E",
+	"transmissionEventId" : "0",
+	"transmissionTime" : "1650549479",
+	"records" :
+	[
+

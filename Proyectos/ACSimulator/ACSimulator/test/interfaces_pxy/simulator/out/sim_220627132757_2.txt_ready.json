@@ -1,0 +1,186 @@
+{
+	"version": "1.0",           				            
+	"transmissionTime" : 1656329277,    				            
+	"records" :
+	[
+		{		                
+			"record_id": 2,                        
+			"vehicle_id" : 0,                        
+			"time_stamp" : "2022-06-27T13:27:57",                        
+			"detector_type" : "GPS",                        
+			"detector_id" : "",                        
+			"category" : "T2",		                
+			"latitude" : 41.184603,		                
+			"longitude" : 1.479112,		                
+			"heading" : 50.27,		                
+			"speed" : 62,		                
+			"lane" : 1,		                
+			"license_plate" : "0000 SIM"		                
+		}
+		,
+		{		                
+			"record_id": 3,                        
+			"vehicle_id" : 3,                        
+			"time_stamp" : "2022-06-27T13:28:01",                        
+			"detector_type" : "GPS",                        
+			"detector_id" : "",                        
+			"category" : "T2",		                
+			"latitude" : 41.196368,		                
+			"longitude" : 1.496006,		                
+			"heading" : 26.87,		                
+			"speed" : 123,		                
+			"lane" : 1,		                
+			"license_plate" : "0003 SIM"		                
+		}
+		,
+		{		                
+			"record_id": 4,                        
+			"vehicle_id" : 2,                        
+			"time_stamp" : "2022-06-27T13:28:02",                        
+			"detector_type" : "GPS",                        
+			"detector_id" : "",                        
+			"category" : "T2",		                
+			"latitude" : 41.184582,		                
+			"longitude" : 1.479088,		                
+			"heading" : 50.27,		                
+			"speed" : 61,		                
+			"lane" : 1,		                
+			"license_plate" : "0002 SIM"		                
+		}
+		,
+		{		                
+			"record_id": 5,                        
+			"vehicle_id" : 4,                        
+			"time_stamp" : "2022-06-27T13:28:02",                        
+			"detector_type" : "GPS",                        
+			"detector_id" : "",                        
+			"category" : "T2",		                
+			"latitude" : 41.181105,		                
+			"longitude" : 1.457956,		                
+			"heading" : 0.87,		                
+			"speed" : 123,		                
+			"lane" : 1,		                
+			"license_plate" : "0004 SIM"		                
+		}
+		,
+		{		                
+			"record_id": 6,                        
+			"vehicle_id" : 5,                        
+			"time_stamp" : "2022-06-27T13:28:02",                        
+			"detector_type" : "GPS",                        
+			"detector_id" : "",                        
+			"category" : "T2",		                
+			"latitude" : 41.269201,		                
+			"longitude" : 1.511181,		                
+			"heading" : 178.79,		                
+			"speed" : 54,		                
+			"lane" : 1,		                
+			"license_plate" : "0005 SIM"		                
+		}
+		,
+		{		                
+			"record_id": 7,                        
+			"vehicle_id" : 6,                        
+			"time_stamp" : "2022-06-27T13:28:03",                        
+			"detector_type" : "GPS",                        
+			"detector_id" : "",                        
+			"category" : "T2",		                
+			"latitude" : 41.269204,		                
+			"longitude" : 1.511037,		                
+			"heading" : 178.79,		                
+			"speed" : 54,		                
+			"lane" : 1,		                
+			"license_plate" : "0006 SIM"		                
+		}
+		,
+		{		                
+			"record_id": 8,                        
+			"vehicle_id" : 7,                        
+			"time_stamp" : "2022-06-27T13:28:03",                        
+			"detector_type" : "GPS",                        
+			"detector_id" : "",                        
+			"category" : "T2",		                
+			"latitude" : 41.183915,		                
+			"longitude" : 1.533286,		                
+			"heading" : 186.49,		                
+			"speed" : 46,		                
+			"lane" : 1,		                
+			"license_plate" : "0007 SIM"		                
+		}
+		,
+		{		                
+			"record_id": 9,                        
+			"vehicle_id" : 8,                        
+			"time_stamp" : "2022-06-27T13:28:04",                        
+			"detector_type" : "GPS",                        
+			"detector_id" : "",                        
+			"category" : "T2",		                
+			"latitude" : 41.214373,		                
+			"longitude" : 1.552386,		                
+			"heading" : 104.53,		                
+			"speed" : 54,		                
+			"lane" : 1,		                
+			"license_plate" : "0008 SIM"		                
+		}
+		,
+		{		                
+			"record_id": 10,                        
+			"vehicle_id" : 9,                        
+			"time_stamp" : "2022-06-27T13:28:04",                        
+			"detector_type" : "GPS",                        
+			"detector_id" : "",                        
+			"category" : "T2",		                
+			"latitude" : 41.215779,		                
+			"longitude" : 1.557928,		                
+			"heading" : 140.75,		                
+			"speed" : 55,		                
+			"lane" : 1,		                
+			"license_plate" : "0009 SIM"		                
+		}
+		,
+		{		                
+			"record_id": 11,                        
+			"vehicle_id" : 10,                        
+			"time_stamp" : "2022-06-27T13:28:05",                        
+			"detector_type" : "GPS",                        
+			"detector_id" : "",                        
+			"category" : "T2",		                
+			"latitude" : 41.216505,		                
+			"longitude" : 1.563410,		                
+			"heading" : 165.22,		                
+			"speed" : 44,		                
+			"lane" : 1,		                
+			"license_plate" : "0010 SIM"		                
+		}
+		,
+		{		                
+			"record_id": 12,                        
+			"vehicle_id" : 11,                        
+			"time_stamp" : "2022-06-27T13:28:06",                        
+			"detector_type" : "GPS",                        
+			"detector_id" : "",                        
+			"category" : "T2",		                
+			"latitude" : 41.195825,		                
+			"longitude" : 1.561832,		                
+			"heading" : 175.99,		                
+			"speed" : 45,		                
+			"lane" : 1,		                
+			"license_plate" : "0011 SIM"		                
+		}
+		,
+		{		                
+			"record_id": 13,                        
+			"vehicle_id" : 12,                        
+			"time_stamp" : "2022-06-27T13:28:06",                        
+			"detector_type" : "GPS",                        
+			"detector_id" : "",                        
+			"category" : "T2",		                
+			"latitude" : 41.221647,		                
+			"longitude" : 1.619285,		                
+			"heading" : 206.21,		                
+			"speed" : 65,		                
+			"lane" : 1,		                
+			"license_plate" : "0012 SIM"		                
+		}
+	]
+}

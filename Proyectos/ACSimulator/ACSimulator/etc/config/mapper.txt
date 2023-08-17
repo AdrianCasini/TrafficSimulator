@@ -1,0 +1,74 @@
+
+//================================================================================================================================================
+//================================================================================================================================================
+// Source; Type  ;       File                ;  Red   ; Green  ;  Blue  ;  Quad Size  ;  Distance  ;  Texture ; Table   
+//================================================================================================================================================
+
+
+
+//================================================================================================================================================
+bound      ;  surface  ;  boundary             ;  0.99  ;  0.98  ;  0.98  ;       1000  ;    20000  ;    2     ; No_Table                      ;
+
+//================================================================================================================================================
+//file     ;  surface  ;  building_residential ;  0.99  ;  0.94  ;  0.94  ;         10  ;      5.0   ;  1	  ; Way_nodes_building_residential  ;
+//file     ;  surface  ;  building_apartments  ;  0.99  ;  0.943 ;  0.943 ;         10  ;      5.0   ;  1     ; Way_nodes_building_apartments   ;
+//file     ;  surface  ;  building_industrial  ;  0.86  ;  0.86  ;  0.90  ;         10  ;      20.0  ;  1     ; Way_nodes_building_industrial  ;
+//file     ;  surface  ;  building-levels      ;  0.90  ;  0.90  ;  0.90  ;          5  ;      10.0  ;  1     ; Way_nodes_building-levels  ;
+//file     ;  surface  ;  building_yes         ;  0.87  ;  0.87  ;  0.87  ;          5  ;      10.0  ;  1     ; Way_nodes_building_yes  ;
+
+//================================================================================================================================================
+file     ;  surface  ;  landuse_industrial     ;  0.0   ;  0.99  ;  0.96  ;       20  ;      20.0  ;  1     ; Way_nodes_landuse_industrial  ;
+file     ;  surface  ;  natural_water          ;  0.32  ;  0.82  ;  0.92  ;       50  ;      20.0  ;  2     ; Way_nodes_natural_water  ;
+file     ;  surface  ;  leisure_park           ;  0.89  ;  0.99  ;  0.89  ;       20  ;      20.0  ;  1     ; Way_nodes_leisure_park  ;
+file     ;  surface  ;  landuse_forest         ;  0.90  ;  0.99  ;  0.90  ;       20  ;      20.0  ;  1     ; Way_nodes_landuse_forest  ;
+
+
+//================================================================================================================================================
+file     ;  surface  ;  natural_coastline    ;  0.88  ;  0.88  ;  0.88  ;         500 ;  10250.0  ;         ; Way_nodes_natural_coastline   ;
+//================================================================================================================================================
+//file     ;  surface  ;  admin_level_11       ;  0.88  ;  0.88  ;  0.88  ;         50  ;     50.0  ;         ; Way_nodes_admin_level_11   ;
+//file     ;  surface  ;  admin_level_10       ;  0.88  ;  0.88  ;  0.88  ;         50  ;     50.0  ;         ; Way_nodes_admin_level_10   ;
+//file     ;  surface  ;  admin_level_9        ;  0.88  ;  0.88  ;  0.88  ;         50  ;     50.0  ;         ; Way_nodes_admin_level_9   ;
+//file     ;  surface  ;  admin_level_8        ;  0.88  ;  0.88  ;  0.88  ;         50  ;     50.0  ;         ; Way_nodes_admin_level_8   ;
+//file     ;  surface  ;  admin_level_7        ;  0.88  ;  0.88  ;  0.88  ;         50  ;     50.0  ;         ; Way_nodes_admin_level_7   ;
+//file     ;  surface  ;  admin_level_6        ;  0.88  ;  0.88  ;  0.88  ;         50  ;     50.0  ;         ; Way_nodes_admin_level_6   ;
+//file     ;  surface  ;  admin_level_5        ;  0.88  ;  0.88  ;  0.88  ;         50  ;     50.0  ;         ; Way_nodes_admin_level_5   ;
+file     ;  surface  ;  admin_level_4        ;  0.88  ;  0.88  ;  0.88  ;         50  ;     50.0  ;         ; Way_nodes_admin_level_4   ;
+//file     ;  surface  ;  admin_level_3        ;  0.50  ;  0.50  ;  0.50  ;         50  ;     50.0  ;          ; Way_nodes_admin_level_3   ;
+//file     ;  surface  ;  admin_level_2        ;  0.50  ;  0.50  ;  0.50  ;         50  ;     50.0  ;          ; Way_nodes_admin_level_2   ;
+//file     ;  surface  ;  admin_level_1        ;  0.50  ;  0.50  ;  0.50  ;         50  ;     50.0  ;          ; Way_nodes_admin_level_1   ;
+
+//================================================================================================================================================
+//file     ;  surface  ;  barrier_toll_booth   ;  0.99  ;  0.40  ;  0.49  ;        100  ;     150.0  ;          ; Way_nodes_barrier_toll_booth    ;
+//file     ;  surface  ;  railway_rail         ;  0.50  ;  0.50  ;  0.50  ;         50  ;     150.0  ;          ; Way_nodes_railway_rail  ;
+//file     ;  surface  ;  railway_subway       ;  0.65  ;  0.65  ;  0.65  ;         20  ;      80.0  ;          ; Way_nodes_railway_subway  ;
+
+//================================================================================================================================================
+
+file     ;  line     ;  way_trunk            ;  0.99  ;  0.70  ;  0.70  ;        300  ;   20550.0  ;          ; Way_nodes_highway_trunk ;
+file     ;  line     ;  way_trunk_link       ;  0.81  ;  0.70  ;  0.70  ;        300  ;   20550.0  ;          ; Way_nodes_highway_trunk_link ;
+file     ;  line     ;  way_motorway         ;  0.97  ;  0.60  ;  0.60  ;        100  ;     600.0  ;          ; Way_nodes_highway_motorway;
+file     ;  line     ;  way_motorway_link    ;  0.95  ;  0.60  ;  0.60  ;        100  ;     600.0  ;          ; Way_nodes_highway_motorway_link;
+file     ;  line     ;  way_primary          ;  0.66  ;  0.66  ;  0.88  ;        100  ;     500.0  ;          ; Way_nodes_highway_primary;
+file     ;  line     ;  way_primary_link     ;  0.63  ;  0.66  ;  0.88  ;        100  ;     500.0  ;          ; Way_nodes_highway_primary_link;
+file     ;  line     ;  way_secondary        ;  0.77  ;  0.77  ;  0.88  ;         50  ;     100.0  ;          ; Way_nodes_highway_secondary;
+file     ;  line     ;  way_secondary_link   ;  0.75  ;  0.77  ;  0.88  ;         50  ;     100.0  ;          ; Way_nodes_highway_secondary_link;
+file     ;  line     ;  way_tertiary         ;  0.80  ;  0.80  ;  0.80  ;         50  ;     100.0  ;          ; Way_nodes_highway_tertiary;
+file     ;  line     ;  way_tertiary_link    ;  0.78  ;  0.80  ;  0.80  ;         50  ;     100.0  ;          ; Way_nodes_highway_tertiary_link;
+
+file     ;  line     ;  way_unclassified     ;  0.80  ;  0.90  ;  0.90  ;         10  ;      30.0  ;          ; Way_nodes_highway_unclassified;
+file     ;  line     ;  way_service          ;  0.99  ;  0.90  ;  0.90  ;         10  ;      30.0  ;          ; Way_nodes_highway_service;
+file     ;  line     ;  way_residential      ;  0.88  ;  0.88  ;  0.88  ;         10  ;      30.0  ;          ; Way_nodes_highway_residential  ;
+file     ;  line     ;  way_track            ;  0.67  ;  0.79  ;  0.67  ;         10  ;      30.0  ;          ; Way_nodes_highway_track  ;
+file     ;  line     ;  way_living_street    ;  0.91  ;  0.93  ;  0.89  ;         10  ;      30.0  ;          ; Way_nodes_highway_living_street  ;
+file     ;  line     ;  way_road             ;  0.92  ;  0.94  ;  0.90  ;         10  ;      30.0  ;          ; Way_nodes_highway_troad  ;
+file     ;  line     ;  way_escape           ;  0.93  ;  0.95  ;  0.91  ;         10  ;      30.0  ;          ; Way_nodes_highway_escape  ;
+
+//================================================================================================================================================
+//file     ;  line     ;  way_path             ;  0.88  ;  0.88  ;  0.95  ;         10  ;      20.0  ;          ; Way_nodes_highway_path    ;
+//file     ;  line     ;  way_footway          ;  0.95  ;  0.88  ;  0.88  ;         10  ;      20.0  ;          ; Way_nodes_highway_footway    ;
+
+//================================================================================================================================================
+file     ;  line     ;  building_any         ;  0.99  ;  0.75  ;  0.75  ;         5  ;       5.0  ;          ; Way_nodes_building_any  ;
+
+

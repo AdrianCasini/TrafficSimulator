@@ -1,0 +1,5 @@
+#--------------------------------------------------------------------------------------------------------------------
+TYPE; SOURCETRIP                                                                                                     
+FORMAT; STR; SOURCE_FILE; STR; SOURCE_FILE; STR; TYPE; STR; TRIP_FILE; STR; EST_IN; STR; EST_OUT; INT; ITERATION     
+#--------------------------------------------------------------------------------------------------------------------
+SOURCE;prueba_fast.txt;TRIP;route_220727110321.txt;ent;sal;2000
